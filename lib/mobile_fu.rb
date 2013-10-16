@@ -30,11 +30,8 @@ module ActionController
         include ActionController::MobileFu::InstanceMethods
   
         helper_method :is_mobile_device?
-        helper_method :is_tablet_device?
         helper_method :in_mobile_view?
-        helper_method :in_tablet_view?
         helper_method :is_device?
-        helper_method :mobile_device
       end
       
       def has_mobile_fu(test_mode = false)
